@@ -1,15 +1,45 @@
 body {
+    background-color: #dfffdc;
     padding-left: 15px;
+    padding-right: 15px;
     font-family: 'Candara';
 }
 .page-header {
+    background-image: url("title.jpg");
+    background-size: cover;
     background-color: #076F06;
     margin-top: 0;
     padding: 20px 20px 20px 40px;
 }
-
+.navbar {
+    font-family: 'Candara';
+    color: #00FF00;
+    font-size: 24px;
+}
+.nav {
+    color: #000000
+    
+}
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    padding: 8px;
+    background-color: #dfffdc;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.nav:hover {
+     color: #00FF00;
+}
 .page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
-    color: #ffffff;
+    color: #dfffdc;
     font-size: 36pt;
     text-decoration: none;
 }
